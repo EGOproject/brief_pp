@@ -55,6 +55,7 @@ span{
     color: silver;
     line-height: 22px;;
 }
+
 .txt a{
     background: #212121;
     padding: 10px 18px;
@@ -64,4 +65,29 @@ span{
     display: inline-block;
     margin: 30px 0;
     border-radius: 10px;;
+}
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translatex(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .shape{
+    bottom: 40px
+}
+
+.images:hover .girl{
+    left: 45%
 }
