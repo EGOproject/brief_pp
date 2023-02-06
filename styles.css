@@ -68,11 +68,9 @@ span{
 }
 
 .images img{
-    height: 100%;
     position: absolute;
     left: 50%;
     bottom: 0;
-    transform: translatex(-50%);
     transition: bottom 1s, left 1s;
 }
   
@@ -86,17 +84,10 @@ span{
     transition: transform 0.5s;
 }
 .pp{
-    width: 100%
+    width: 70%;
+    float: left;
 }
 
-
-.images:hover .shape{
-    top: 40px
-}
-
-.images:hover .girl{
-    left: 45%
-}
 button {
     background-color: #3c4556;
     color: rgb(207, 114, 9);
@@ -112,5 +103,21 @@ button {
     cursor: pointer;
     transform: scale(1.5);
     font-weight: bolder;
+  }
+  
+  .footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .footer-icons i {
+    font-size: 24px;
   }
   
